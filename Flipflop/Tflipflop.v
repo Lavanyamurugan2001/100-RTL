@@ -1,5 +1,5 @@
-module tff (d , clk , reset , q);
-input d, clk, reset ; 
+module tff (t , clk , reset , q);
+input t, clk, reset ; 
 output reg q;
 always @ ( posedge clk)
 if (~reset) begin
